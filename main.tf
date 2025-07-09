@@ -11,5 +11,4 @@ module "keyvault" {
   source              = "./modules/keyvault"
   keyvault_name       = var.keyvault_name
   resource_group_name = azurerm_resource_group.this.name
-  tenant_id           = var.tenant_id
 }
